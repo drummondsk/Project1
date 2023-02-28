@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+ 
+  
+}
+
+td {
+  padding: 10px;
+  background-color: #FBF8F1;
+}
+
+
+.Event {
+  width: 10%;
+  padding: 5%;
+  background-color: white;
+  border: 5px outset;
+  
+  text-align: center;
+
+}
+.Event h6,h5 {
+  line-height: 0px;
+  align-content: center;
+}
+.Event :hover{
+  border: 5px inset;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img{
+ height: 200px;
+ width: 200px;
+}
